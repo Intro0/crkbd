@@ -103,17 +103,8 @@
         };
 
         hyper {
-            bindings = <&hyper>;
+            bindings = <&kp RS(RA(RC(RIGHT_GUI)))>;
             key-positions = <43 46>;
-        };
-    };
-
-    macros {
-        hyper: hyper {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LEFT_SHIFT &kp LEFT_CONTROL &kp LEFT_GUI &kp LEFT_ALT>;
-            label = "HYPER";
         };
     };
 
