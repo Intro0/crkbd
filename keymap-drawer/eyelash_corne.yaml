@@ -47,7 +47,7 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:keyboard-return$$', h: NUMBER}
-  - RIGHT GUI
+  - $$mdi:apple-keyboard-option$$
   NUMBER:
   - {t: /, s: '?'}
   - {t: '1', s: '!'}
@@ -204,3 +204,5 @@ combos:
   k: $$mdi:keyboard-esc$$
 - p: [43, 44]
   k: $$mdi:keyboard-tab$$
+- p: [43, 46]
+  k: '&hyper'
