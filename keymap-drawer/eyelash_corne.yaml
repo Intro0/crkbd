@@ -205,4 +205,4 @@ combos:
 - p: [43, 44]
   k: $$mdi:keyboard-tab$$
 - p: [43, 46]
-  k: '&hyper'
+  k: Sft+AltGr+Ctl+RIGHT GUI
